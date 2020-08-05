@@ -1,0 +1,79 @@
+name: pdf_viewer
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  #path_provider: "^0.4.1"
+  path_provider: ^1.6.11
+
+  http:
+    #https://pub:dev/packages/pdf_viewer_plugin#-installing-tab-:
+  pdf_viewer_plugin: 1.0.0+2
+
+  native_pdf_renderer: ^2.3.2
+
+  #https://pub.dev/packages/flutter_full_pdf_viewer
+  flutter_full_pdf_viewer: ^1.0.6
+#https://pub.dev/packages/advance_pdf_viewer/example
+  advance_pdf_viewer: ^1.1.6
+#https://pub.dev/packages/pdf_render
+  pdf_render: ^0.65.0
+#https://pub.dev/packages/flutter_plugin_pdf_viewer/install
+  # this is an older version of AdvancePdfViewerExample
+  #flutter_plugin_pdf_viewer: ^1.0.7
+#https://pub.dev/packages/pdf_flutter/install, needs file_picker for example
+  pdf_flutter: ^1.1.2
+  file_picker: ^1.13.0+1
+  #https://pub.dev/packages/read_pdf_text/install
+  read_pdf_text: ^0.1.1
+  #https://pub.dev/packages/pdf_previewer/install
+  pdf_previewer: ^0.1.3+3
+  #https://pub.dev/packages/pdf_text/install:
+  pdf_text: ^0.2.2
+  flutter_pdf_renderer: ^1.3.2
+  flutter_cached_pdfview: ^0.2.0
+  flutter_fullpdfview: ^1.1.5
+  #  clean_framework:
+#    path: ../mobile-dependencies/clean_framework_1.0
+  share_extend:
+    path: ../mobile-dependencies/ShareExtend_1.0.9
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/doj-fhwa-ta-glossary.pdf
+    - assets/privacypolicy.pdf
+
