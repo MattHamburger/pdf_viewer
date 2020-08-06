@@ -1,0 +1,6 @@
+framework module pdf_previewer {
+  umbrella header "pdf_previewer-umbrella.h"
+
+  export *
+  module * { export * }
+}

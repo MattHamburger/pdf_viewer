@@ -7,7 +7,6 @@ import 'package:pdf_viewer/pdf_viewer_plugin_example.dart';
 import 'package:pdf_viewer/read_pdf_text_example.dart';
 
 import 'advance_pdf_viewer_example.dart';
-import 'flutter_cached_pdfview.dart';
 import 'flutter_full_pdf_viewer_example.dart';
 import 'flutter_fullpdfview_example.dart';
 import 'native_pdf_renderer_example.dart';
@@ -65,7 +64,7 @@ class _MasterPagePageState extends State<MasterPagePage> {
             getTile("PdfRenderExample", 5),
             getTile("PdfFlutter", 6),
             getTile("PdfPreviewerExample", 7),
-            getTile("FlutterCachedPdfviewExample delete", 8),
+            getTile(" foo", 8),
             getTile("FlutterFullpdfviewExample", 9),
             getTile("ReadPdfTextExample disable", 10),
             getTile("PdfTextExample disable", 11)
@@ -118,7 +117,7 @@ class _MasterPagePageState extends State<MasterPagePage> {
         return PdfPreviewerExample();
         break;
       case 8:
-        return FlutterCachedPdfviewExample();
+        return ReadPdfTextExample();
         break;
       case 9:
         return FlutterFullpdfviewExample();

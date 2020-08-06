@@ -1,0 +1,11 @@
+framework module read_pdf_text {
+  umbrella header "read_pdf_text-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module read_pdf_text.Swift {
+    header "read_pdf_text-Swift.h"
+    requires objc
+}

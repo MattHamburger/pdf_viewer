@@ -1,0 +1,11 @@
+framework module flutter_pdf_renderer {
+  umbrella header "flutter_pdf_renderer-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module flutter_pdf_renderer.Swift {
+    header "flutter_pdf_renderer-Swift.h"
+    requires objc
+}

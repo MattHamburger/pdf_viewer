@@ -1,0 +1,6 @@
+framework module flutter_fullpdfview {
+  umbrella header "flutter_fullpdfview-umbrella.h"
+
+  export *
+  module * { export * }
+}

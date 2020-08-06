@@ -1,0 +1,6 @@
+framework module share_extend {
+  umbrella header "share_extend-umbrella.h"
+
+  export *
+  module * { export * }
+}

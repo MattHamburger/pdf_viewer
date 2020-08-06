@@ -44,8 +44,6 @@ PODS:
     - Flutter
   - flutter_pdf_renderer (0.0.1):
     - Flutter
-  - flutter_pdfview (1.0.2):
-    - Flutter
   - flutter_plugin_android_lifecycle (0.0.1):
     - Flutter
   - FMDB (2.7.5):
@@ -89,7 +87,6 @@ DEPENDENCIES:
   - flutter_full_pdf_viewer (from `.symlinks/plugins/flutter_full_pdf_viewer/ios`)
   - flutter_fullpdfview (from `.symlinks/plugins/flutter_fullpdfview/ios`)
   - flutter_pdf_renderer (from `.symlinks/plugins/flutter_pdf_renderer/ios`)
-  - flutter_pdfview (from `.symlinks/plugins/flutter_pdfview/ios`)
   - flutter_plugin_android_lifecycle (from `.symlinks/plugins/flutter_plugin_android_lifecycle/ios`)
   - native_pdf_renderer (from `.symlinks/plugins/native_pdf_renderer/ios`)
   - path_provider (from `.symlinks/plugins/path_provider/ios`)
@@ -127,8 +124,6 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/flutter_fullpdfview/ios"
   flutter_pdf_renderer:
     :path: ".symlinks/plugins/flutter_pdf_renderer/ios"
-  flutter_pdfview:
-    :path: ".symlinks/plugins/flutter_pdfview/ios"
   flutter_plugin_android_lifecycle:
     :path: ".symlinks/plugins/flutter_plugin_android_lifecycle/ios"
   native_pdf_renderer:
@@ -166,7 +161,6 @@ SPEC CHECKSUMS:
   flutter_full_pdf_viewer: 1b65139fc3236cde300ba6bea2a72669cb07f2e6
   flutter_fullpdfview: 08748014ed91f80146793f5c5c878241d0d44acd
   flutter_pdf_renderer: 5c410ee2f1724b375c6cc136177e87e49893a3ac
-  flutter_pdfview: 25f53dd6097661e6395b17de506e6060585946bd
   flutter_plugin_android_lifecycle: dc0b544e129eebb77a6bfb1239d4d1c673a60a35
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   native_pdf_renderer: fa374da660730abe059e7a178e79895dd202f007
