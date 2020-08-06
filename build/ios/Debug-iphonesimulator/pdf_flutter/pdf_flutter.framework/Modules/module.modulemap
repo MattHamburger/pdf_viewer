@@ -1,6 +1,0 @@
-framework module pdf_flutter {
-  umbrella header "pdf_flutter-umbrella.h"
-
-  export *
-  module * { export * }
-}

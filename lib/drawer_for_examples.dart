@@ -1,14 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:pdf_viewer/pdf_flutter_example.dart';
+import 'package:pdf_viewer/pdf_image_renderer_example.dart';
 import 'package:pdf_viewer/pdf_previewer_example.dart';
 import 'package:pdf_viewer/pdf_render_example.dart';
-import 'package:pdf_viewer/pdf_text_example.dart';
 import 'package:pdf_viewer/pdf_viewer_plugin_example.dart';
-import 'package:pdf_viewer/read_pdf_text_example.dart';
-
 import 'advance_pdf_viewer_example.dart';
 import 'flutter_full_pdf_viewer_example.dart';
 import 'flutter_fullpdfview_example.dart';
+import 'flutter_pdfview_example.dart';
 import 'native_pdf_renderer_example.dart';
 
 class DrawerForExamples extends StatelessWidget {
@@ -64,10 +63,9 @@ class _MasterPagePageState extends State<MasterPagePage> {
             getTile("PdfRenderExample", 5),
             getTile("PdfFlutter", 6),
             getTile("PdfPreviewerExample", 7),
-            getTile(" foo", 8),
+            getTile("PdfImageRendererExample", 8),
             getTile("FlutterFullpdfviewExample", 9),
-            getTile("ReadPdfTextExample disable", 10),
-            getTile("PdfTextExample disable", 11)
+            getTile("FlutterPdfviewExample", 10)
           ],
         ),
       ), // This trailing comma makes auto-formatting nicer for build methods.
@@ -117,16 +115,13 @@ class _MasterPagePageState extends State<MasterPagePage> {
         return PdfPreviewerExample();
         break;
       case 8:
-        return ReadPdfTextExample();
+        return PdfImageRendererExample();
         break;
       case 9:
         return FlutterFullpdfviewExample();
         break;
       case 10:
-        return ReadPdfTextExample();
-        break;
-      case 11:
-        return PdfTextExample();
+        return FlutterPdfviewExample();
         break;
       default:
     }

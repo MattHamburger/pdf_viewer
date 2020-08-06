@@ -42,7 +42,7 @@ PODS:
     - Flutter
   - flutter_fullpdfview (0.0.1):
     - Flutter
-  - flutter_pdf_renderer (0.0.1):
+  - flutter_pdfview (1.0.2):
     - Flutter
   - flutter_plugin_android_lifecycle (0.0.1):
     - Flutter
@@ -58,6 +58,8 @@ PODS:
   - path_provider_macos (0.0.1):
     - Flutter
   - pdf_flutter (0.0.1):
+    - Flutter
+  - pdf_image_renderer (0.0.1):
     - Flutter
   - pdf_previewer (0.0.1):
     - Flutter
@@ -86,13 +88,14 @@ DEPENDENCIES:
   - Flutter (from `Flutter`)
   - flutter_full_pdf_viewer (from `.symlinks/plugins/flutter_full_pdf_viewer/ios`)
   - flutter_fullpdfview (from `.symlinks/plugins/flutter_fullpdfview/ios`)
-  - flutter_pdf_renderer (from `.symlinks/plugins/flutter_pdf_renderer/ios`)
+  - flutter_pdfview (from `.symlinks/plugins/flutter_pdfview/ios`)
   - flutter_plugin_android_lifecycle (from `.symlinks/plugins/flutter_plugin_android_lifecycle/ios`)
   - native_pdf_renderer (from `.symlinks/plugins/native_pdf_renderer/ios`)
   - path_provider (from `.symlinks/plugins/path_provider/ios`)
   - path_provider_linux (from `.symlinks/plugins/path_provider_linux/ios`)
   - path_provider_macos (from `.symlinks/plugins/path_provider_macos/ios`)
   - pdf_flutter (from `.symlinks/plugins/pdf_flutter/ios`)
+  - pdf_image_renderer (from `.symlinks/plugins/pdf_image_renderer/ios`)
   - pdf_previewer (from `.symlinks/plugins/pdf_previewer/ios`)
   - pdf_render (from `.symlinks/plugins/pdf_render/ios`)
   - pdf_text (from `.symlinks/plugins/pdf_text/ios`)
@@ -122,8 +125,8 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/flutter_full_pdf_viewer/ios"
   flutter_fullpdfview:
     :path: ".symlinks/plugins/flutter_fullpdfview/ios"
-  flutter_pdf_renderer:
-    :path: ".symlinks/plugins/flutter_pdf_renderer/ios"
+  flutter_pdfview:
+    :path: ".symlinks/plugins/flutter_pdfview/ios"
   flutter_plugin_android_lifecycle:
     :path: ".symlinks/plugins/flutter_plugin_android_lifecycle/ios"
   native_pdf_renderer:
@@ -136,6 +139,8 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/path_provider_macos/ios"
   pdf_flutter:
     :path: ".symlinks/plugins/pdf_flutter/ios"
+  pdf_image_renderer:
+    :path: ".symlinks/plugins/pdf_image_renderer/ios"
   pdf_previewer:
     :path: ".symlinks/plugins/pdf_previewer/ios"
   pdf_render:
@@ -160,7 +165,7 @@ SPEC CHECKSUMS:
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
   flutter_full_pdf_viewer: 1b65139fc3236cde300ba6bea2a72669cb07f2e6
   flutter_fullpdfview: 08748014ed91f80146793f5c5c878241d0d44acd
-  flutter_pdf_renderer: 5c410ee2f1724b375c6cc136177e87e49893a3ac
+  flutter_pdfview: 25f53dd6097661e6395b17de506e6060585946bd
   flutter_plugin_android_lifecycle: dc0b544e129eebb77a6bfb1239d4d1c673a60a35
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   native_pdf_renderer: fa374da660730abe059e7a178e79895dd202f007
@@ -168,6 +173,7 @@ SPEC CHECKSUMS:
   path_provider_linux: 4d630dc393e1f20364f3e3b4a2ff41d9674a84e4
   path_provider_macos: f760a3c5b04357c380e2fddb6f9db6f3015897e0
   pdf_flutter: 975efa07fd0d4ca38fcf76af2c4e7dab949feb8e
+  pdf_image_renderer: dc5cf3f09a47e742ed9438adda12d2f386993bc6
   pdf_previewer: 74e8dc668dbfa6eb195bcae52fe8cb85944417a1
   pdf_render: f160ec318f490f5685d0f0b81dc4ab9edba5ecec
   pdf_text: 850e21d1a62672674099a07818c95a3f55030c81
