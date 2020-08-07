@@ -29,6 +29,7 @@ dependencies:
   http:
   flutter_fullpdfview: ^1.1.5
   native_pdf_renderer: ^2.3.2
+  #current plugin
   pdf_viewer_plugin: 1.0.0+2
   advance_pdf_viewer: ^1.1.6
   pdf_render: ^0.65.0

@@ -57,7 +57,7 @@ class _MasterPagePageState extends State<MasterPagePage> {
             ),
            // getTile("FlutterFullPdfViewerExample", 1),
             getTile("NativePdfRendererExample", 2),
-            getTile("PdfViewerPluginExample", 3),
+            getTile("Current plugin", 3),
             getTile("AdvancePdfViewerExample", 4),
             getTile("PdfRenderExample", 5),
             getTile("PdfFlutter", 6),
@@ -94,6 +94,7 @@ class _MasterPagePageState extends State<MasterPagePage> {
       case 2:
         return NativePdfRendererExample("test");
         break;
+        //current plugin
       case 3:
         return PdfViewerPluginExample(
             'https://www.ada.gov/doj-fhwa-ta-glossary.pdf');
