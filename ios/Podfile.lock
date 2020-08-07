@@ -38,8 +38,6 @@ PODS:
     - DKImagePickerController/PhotoGallery
     - Flutter
   - Flutter (1.0.0)
-  - flutter_full_pdf_viewer (1.0.1):
-    - Flutter
   - flutter_fullpdfview (0.0.1):
     - Flutter
   - flutter_pdfview (1.0.2):
@@ -86,7 +84,6 @@ DEPENDENCIES:
   - device_info (from `.symlinks/plugins/device_info/ios`)
   - file_picker (from `.symlinks/plugins/file_picker/ios`)
   - Flutter (from `Flutter`)
-  - flutter_full_pdf_viewer (from `.symlinks/plugins/flutter_full_pdf_viewer/ios`)
   - flutter_fullpdfview (from `.symlinks/plugins/flutter_fullpdfview/ios`)
   - flutter_pdfview (from `.symlinks/plugins/flutter_pdfview/ios`)
   - flutter_plugin_android_lifecycle (from `.symlinks/plugins/flutter_plugin_android_lifecycle/ios`)
@@ -121,8 +118,6 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/file_picker/ios"
   Flutter:
     :path: Flutter
-  flutter_full_pdf_viewer:
-    :path: ".symlinks/plugins/flutter_full_pdf_viewer/ios"
   flutter_fullpdfview:
     :path: ".symlinks/plugins/flutter_fullpdfview/ios"
   flutter_pdfview:
@@ -163,7 +158,6 @@ SPEC CHECKSUMS:
   DKPhotoGallery: fdfad5125a9fdda9cc57df834d49df790dbb4179
   file_picker: 3e6c3790de664ccf9b882732d9db5eaf6b8d4eb1
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
-  flutter_full_pdf_viewer: 1b65139fc3236cde300ba6bea2a72669cb07f2e6
   flutter_fullpdfview: 08748014ed91f80146793f5c5c878241d0d44acd
   flutter_pdfview: 25f53dd6097661e6395b17de506e6060585946bd
   flutter_plugin_android_lifecycle: dc0b544e129eebb77a6bfb1239d4d1c673a60a35

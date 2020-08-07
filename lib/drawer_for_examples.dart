@@ -5,7 +5,6 @@ import 'package:pdf_viewer/pdf_previewer_example.dart';
 import 'package:pdf_viewer/pdf_render_example.dart';
 import 'package:pdf_viewer/pdf_viewer_plugin_example.dart';
 import 'advance_pdf_viewer_example.dart';
-import 'flutter_full_pdf_viewer_example.dart';
 import 'flutter_fullpdfview_example.dart';
 import 'flutter_pdfview_example.dart';
 import 'native_pdf_renderer_example.dart';
@@ -56,7 +55,7 @@ class _MasterPagePageState extends State<MasterPagePage> {
                 color: Colors.blue,
               ),
             ),
-            getTile("FlutterFullPdfViewerExample", 1),
+           // getTile("FlutterFullPdfViewerExample", 1),
             getTile("NativePdfRendererExample", 2),
             getTile("PdfViewerPluginExample", 3),
             getTile("AdvancePdfViewerExample", 4),
@@ -92,9 +91,6 @@ class _MasterPagePageState extends State<MasterPagePage> {
 
   getPage() {
     switch (pageNo) {
-      case 1:
-        return FlutterFullPdfViewerExample();
-        break;
       case 2:
         return NativePdfRendererExample("test");
         break;
